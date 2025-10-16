@@ -27,7 +27,7 @@ class Sanpham:
         self.__gia = float(input("Nhập giá sản phẩm: "))
         self.__giam_gia = float(input("giam gia: "))
     def xuat_thong_tin_sp(self):
-        print(f"Tên sản phẩm: {self.ten_san_pham} có giá {self.gia} và được giảm giá {self.__giam_gia}")
+        print(f"Tên sản phẩm: {self.ten_san_pham} có giá {self.gia} và được giảm giá {self.__giam_gia}") 
     def __str__(self):
         return f"Sản phẩm {self.ten_san_pham} có giá {self.gia} và được giảm giá {self.__giam_gia} và thuế nhập khẩu là {self.thue_nhap_khau()}"
     
