@@ -30,4 +30,4 @@ class HinhVuong(ChuNhat):
         print(f"Diện tích: {self.tinh_dien_tich()}")
 
     def xuat(self):
-        self.hien_thi_thong_tin()
+        self.hien_thi_thong_tin()   
