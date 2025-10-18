@@ -26,3 +26,4 @@ class SinhvienPoly:
         self.__diem = float(input("Nhập điểm sinh viên: "))
     def xuat(self):
         print(f"Sinh viên: {self.__ten} - Mã SV: {self.__ma_sv} - Điểm: {self.__diem} - Học lực: {self.get_hoc_luc()}")
+        
